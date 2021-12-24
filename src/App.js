@@ -1,25 +1,9 @@
 import {useState, useEffect} from "react";
 import './App.css';
-// import $Spelling from "jquery";
+
 
 let words = ["come", "get", "give", "go"];
-//   {
-//     id: 0,
-//     word: "come",
-//   },
-//   {
-//     id: 1,
-//     word: "get",
-//   },
-//   {
-//     id: 2,
-//     word: "give",
-//   },
-//   {
-//     id: 3,
-//     word: "go",
-//   },
-// ];
+
 
 function App() {
 const [searchInput, setSearchInput] = useState("");
@@ -37,11 +21,6 @@ const [options, setOptions] = useState();
     }
   }, [searchInput]);
 
-
-
-  // function checkSpell() {
-  //   $Spelling.SpellCheckInWindow("textarea");
-  // }
 
   return (
     <div className="App">
@@ -61,9 +40,6 @@ const [options, setOptions] = useState();
               setSearchInput(event.target.value);
             }}
           ></textarea>
-          {/* <button value="CHECK SPELLING" onClick={checkSpell()}>
-            Check
-          </button> */}
         </div>
         <div>
           <h3>Options:</h3>

@@ -36,13 +36,3 @@ h3 {
   color: aliceblue;
 }
 
-button {
-  /* padding: 2%; */
-  width: 15%;
-  font-size: 1.5rem;
-  border-radius: 30%;
-  background-color: blue;
-  color: white;
-  cursor: pointer;
-}
-
